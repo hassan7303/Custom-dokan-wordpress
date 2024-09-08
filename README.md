@@ -8,7 +8,6 @@
 >
 >Features include hiding seller information, controlling access based on user payments, and modifying admin and vendor interactions.
 
-
 ## Features
 
 - **Hide Seller Information**: Hide seller contact information (like phone numbers and emails) unless the user has purchased access.
@@ -50,17 +49,15 @@
     function hide_order_stats_from_vendor_dashboard(array $data, string $widget): array
     ```
 
-
 ## Installation
 
 1. Upload the `custom-dokan` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Configure the plugin settings as needed.
 
-
 ## Usage
 
->To use, you must firstHave the shop plugin installed
+>To use, you must first have the Dokan and WooCommerce plugins installed.
 >
 >The plugin automatically integrates with the Dokan and WooCommerce plugins.
 >
@@ -68,13 +65,12 @@
 >
 >For specific behavior, review the function implementations in the plugin code.
 
+## Author and Support
 
-## Author And Supporter
-
->Hassan Ali Askari
->
+>Hassan Ali Askari  
+>Instagram: [@hassanali7303](https://www.instagram.com/hasan_ali_askari)  
+>LinkedIn: [Hassan Ali Askari](https://www.linkedin.com/in/hassan-ali-askari)  
 >For support, please contact [hassanali7303@gmail.com](mailto:hassanali7303@gmail.com).
-
 
 ## License
 
