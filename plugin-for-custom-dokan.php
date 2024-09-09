@@ -120,7 +120,7 @@ function show_all_seller_phones_in_order_details($order): void
                                 <td style="padding: 10px; border: 1px solid #ddd;"><?php echo esc_html($product_name); ?></td>
                                 <td style="padding: 10px; border: 1px solid #ddd;">ادمین</td>
                                 <td style="padding: 10px; border: 1px solid #ddd;">
-                                    <?php echo $phone_number  ? esc_html($phone_number ) : 'شماره تلفن موجود نیست'; ?>
+                                    <?php echo $phone_number ? esc_html($phone_number) : 'شماره تلفن موجود نیست'; ?>
                                 </td>
                                 <td style="padding: 10px; border: 1px solid #ddd;">
                                     اطلاعات موجود نیست
